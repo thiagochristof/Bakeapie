@@ -1,0 +1,106 @@
+/* bakeapie.org by t@bakeapie.org */
+/* this beautiful and clean layout has some elements inspired by http://david.heinemeierhansson.com */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	color: #222;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+	margin: 80px auto; /* 80px: initial reference for GR */
+	width: 520px;
+	line-height: 1.5em;
+}
+
+a {
+	color: #03a0db;
+}
+
+a:visited {
+	color: #007cab;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 2em;
+	margin-bottom: .5em;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 1.4em;
+	margin: 1.6em 0 .8em 0;
+	line-height: 1.2em;
+}
+
+p {
+	margin: 0 0 1em .1em;
+}
+
+header {
+	margin-bottom: 3em;
+}
+
+header .profile {
+	background-size: 100%;
+	display: block;
+	height: 129px; /* GR */
+	width: 129px; /* GR */
+	overflow: hidden;
+	border-radius: 129px;
+	-moz-border-radius: 129px;
+	-webkit-border-radius: 129px;
+	margin: 0 19px 0 0; /* GR */
+}
+
+header .social {
+	font-size: 95%;
+	line-height: 1.4em;
+	color: #5a5a5a;
+}
+
+header .social a {
+	text-decoration: none;
+	margin-right: .6em;
+}
+
+header .social a:hover {
+	text-decoration: underline;
+}
+
+.caption {
+	display: block;
+	font-style: italic;
+	font-size: 95%;
+}
+
+@media screen and (max-width: 520px) {
+	body {
+		margin: 40px auto; /* 40px: initial reference for GR */
+		padding: 0 25px; /* GR */
+		width: auto;
+		word-wrap: break-word;
+	}
+
+	header .profile {
+		background-size: 100%;
+		display: block;
+		height: 105px; /* GR */
+		width: 105px; /* GR */
+		overflow: hidden;
+		border-radius: 105px;
+		-moz-border-radius: 105px;
+		-webkit-border-radius: 105px;
+		margin: 0 15px 0 0; /* GR */
+	}
+
+	img {
+		max-width: 100%;
+		width: auto;
+		height: auto;
+	}
+}
