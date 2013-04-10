@@ -18,11 +18,15 @@ body {
 }
 
 a {
-	color: #03a0db;
+	color: #00f;
 }
 
 a:visited {
-	color: #007cab;
+	color: #800080;
+}
+
+a:active {
+	color: #f00;
 }
 
 h1 {
@@ -30,13 +34,20 @@ h1 {
 	font-size: 2em;
 	margin-bottom: .5em;
 	line-height: 1.1em;
+	/* border */
+	border-bottom: 1px solid #222;
+	padding-bottom: .1em;
 }
 
 h2 {
 	font-weight: normal;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	margin: 1.6em 0 .8em 0;
 	line-height: 1.2em;
+}
+
+h2 span {
+	font-size: 115%; /* "We are blinded" */
 }
 
 p {
@@ -56,17 +67,16 @@ header {
 	border-radius: 50%;
 	margin: 0 1.1875em 1.1875em 0; /* GR */
 	float: left;
+	display: none; /* TEMP: hiding profile picture */
 }
 
 .social {
 	font-size: .95em;
 	line-height: 1.4em;
-	color: #5a5a5a;
 }
 
 .social a {
 	text-decoration: none;
-	margin-right: .6em;
 }
 
 .social a:hover {
